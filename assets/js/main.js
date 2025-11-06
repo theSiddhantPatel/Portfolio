@@ -223,7 +223,7 @@ colors.forEach((color) => {
 });
 
 /*=============== LIGHT/DARK MODE ===============*/
-let currentTheme = "light";
+let currentTheme = "dark";
 document.body.className = currentTheme;
 
 document.querySelectorAll('input[name="body-theme"]').forEach((input) => {
