@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== REMIXICON ===============-->
+    <link rel="stylesheet" href="./assets/css/cursor.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -17,6 +18,7 @@
     />
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/code.css" />
 
     <title>Siddhant Patel</title>
   </head>
@@ -24,7 +26,20 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav href="#" class="nav container">
-        <a href="#" class="nav-logo">Patel</a>
+        <!-- <a href="#" class="nav-logo"> &lt;/&gt;</a> -->
+        <a href="#" class="code-logo" aria-label="Home">
+          <span class="code-logo__box code-logo__left">
+            <span class="code-logo__char code-logo__move">&lt;</span>
+          </span>
+
+          <span class="code-logo__box code-logo__center">
+            <span class="code-logo__char code-logo__slash">/</span>
+          </span>
+
+          <span class="code-logo__box code-logo__right">
+            <span class="code-logo__char code-logo__move">&gt;</span>
+          </span>
+        </a>
 
         <div class="nav-menu" id="nav-menu">
           <ul class="nav-list">
@@ -102,7 +117,7 @@
             <div class="home-banner">
               <div class="home-img-wrapper">
                 <img
-                  src="./assets/img/profile.png"
+                  src="./assets/img/profile1.png"
                   alt=""
                   class="home-profile"
                 />
@@ -139,7 +154,7 @@
 
             <p class="home-description">
               I am from Uttar Pradesh, India. I have rich experience in web
-              development and am skilling in Gen AI. I love discussing what
+              development and I am skilling in Gen AI. I love discussing what
               makes us unique.
             </p>
             <div class="home-socials social-links">
@@ -168,8 +183,9 @@
             <div class="home-btns">
               <a
                 download=""
-                href="./assets/pdf/siddhantpatel (1).pdf"
+                href="./assets/pdf/siddhantpatel.pdf"
                 class="btn"
+                target="_blank"
                 >DOWNLOAD RESUME</a
               >
               <!-- <a href="" class="home-link">My Skills</a> -->
@@ -481,7 +497,7 @@
 
             <div class="mix Frontend">
               <div class="card">
-                <img src="./assets/img/project4.jpeg" alt="" class="work-img" />
+                <img src="./assets/img/project4.jpg" alt="" class="work-img" />
 
                 <h4 class="work-category">Frontend</h4>
                 <h3 class="work-title">Project 2</h3>
@@ -1018,9 +1034,9 @@
         </div>
 
         <p class="footer-copyright">
-          ©2025<span> SPatel</span> All rights reserved
+          Made with<span> &lt;/&gt;</span> by <span>SPatel</span>
         </p>
-        <p class="footer-copyright">Developed by <span>SPatel</span></p>
+        <p class="footer-copyright">©2025-26 <span>SPatel</span></p>
       </div>
     </footer>
 
@@ -1060,7 +1076,6 @@
               class="style-switcher-input"
               name="body-theme"
               value="light"
-              checked="true"
               id="light-theme"
             />
             <label for="light-theme" class="style-switcher-label">Light</label>
@@ -1072,6 +1087,7 @@
               class="style-switcher-input"
               name="body-theme"
               value="dark"
+              checked="true"
               id="dark-theme"
             />
             <label for="light-theme" class="style-switcher-label">Dark</label>
@@ -1097,6 +1113,7 @@
     ></script>
 
     <!--=============== JS ===============-->
+    <script src="./assets/js/cursor.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
