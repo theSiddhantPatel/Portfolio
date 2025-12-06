@@ -1378,3 +1378,9 @@ textarea {
     padding-inline: 1.25rem;
   }
 }
+
+.typewriter-container {
+  font-size: 2rem; /* Adjust text size here */
+  font-weight: 600;
+  color: var(--title-color); /* Dark blue/grey color */
+}
