@@ -1384,3 +1384,35 @@ textarea {
   font-weight: 600;
   color: var(--title-color); /* Dark blue/grey color */
 }
+
+.typewriter-text {
+  background: var(--first-color);
+  color: var(--title-color); /* Blue color for the changing word */
+}
+
+/*cursor on hover for resume link*/
+/* prepare tooltip */
+.resume h2[data-titleR] {
+  position: relative;
+}
+
+/* tooltip hidden by default */
+.resume h2[data-titleR]::after {
+  content: attr(data-titleR);
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+/* show tooltip when hovering the SECTION */
+.resume:hover h2[data-titleR]::after {
+  opacity: 1;
+  visibility: visible;
+  /*background: linear-gradient(90deg, #38232d, #6c644f, #486267, #5f486c);*/
+}

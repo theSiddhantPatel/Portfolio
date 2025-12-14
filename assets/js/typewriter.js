@@ -40,7 +40,7 @@ const typeEffect = () => {
       wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
     }
 
-    setTimeout(typeEffect, 1200); // Pause time at end of word
+    setTimeout(typeEffect, 900); // Pause time at end of word
   }
 };
 

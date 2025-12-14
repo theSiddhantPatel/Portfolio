@@ -10,7 +10,7 @@
   /* color: var(--first-color); /* Blue color for the changing word
   color: linear-gradient(90deg, #ff007a, #ffae00, #00d9ff, #9b00ff);
   font-weight: 700; */
-  background: linear-gradient(90deg, #d02c7b, #d8a22c, #2fc9e4, #7f24bc);
+  /*background: linear-gradient(90deg, #892455, #957329, #2a8494, #7f24bc);
 
   /* Clip the background to the text shape */
   -webkit-background-clip: text;
@@ -27,7 +27,7 @@
 .typewriter-cursor {
   display: inline-block;
   width: 3px;
-  background-color: #818cf8; /* Light purple/blue typewriter-cursor color */
+  background-color: #666fc4; /* Light purple/blue typewriter-cursor color */
   margin-left: 5px;
   animation: blink 1s infinite;
 }
