@@ -1379,6 +1379,8 @@ textarea {
   }
 }
 
+/*typewriter effect*/
+
 .typewriter-container {
   font-size: 2rem; /* Adjust text size here */
   font-weight: 600;
@@ -1391,6 +1393,7 @@ textarea {
 }
 
 /*cursor on hover for resume link*/
+
 /* prepare tooltip */
 .resume h2[data-titleR] {
   position: relative;

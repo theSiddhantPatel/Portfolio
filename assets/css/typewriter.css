@@ -10,7 +10,13 @@
   /* color: var(--first-color); /* Blue color for the changing word
   color: linear-gradient(90deg, #ff007a, #ffae00, #00d9ff, #9b00ff);
   font-weight: 700; */
-  /*background: linear-gradient(90deg, #892455, #957329, #2a8494, #7f24bc);
+  background: linear-gradient(
+    90deg,
+    #95446b,
+    #877449,
+    #3a7e8a,
+    #804ca3
+  ); /* Gradient colors for the text */
 
   /* Clip the background to the text shape */
   -webkit-background-clip: text;
